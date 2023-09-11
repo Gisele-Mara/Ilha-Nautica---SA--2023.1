@@ -1,0 +1,11 @@
+Características
+Construtor: Ro
+Modelo: 400
+Ano: 2007 (Renovado em 2014)
+Capacidade a bordo - Autorizada: 8
+Número de cabines: 3
+Número de camas: 4
+Número de banheiros: 1
+Comprimento: 12m
+Largura: 3.8m
+Potência: 52cv

@@ -1,0 +1,162 @@
+@import url('/style/home.css');
+@import url('/style/Cadastros.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: white;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+main {
+    top: 170px;
+    width: 98%;
+    height: 1600px; 
+    position: absolute;
+    padding-left:0;
+    margin-top: 2%;
+    /* margin-right: 30px;  */
+    /* background-color: rgb(255, 255, 255); */
+    background-color: transparent;
+
+
+}
+.container-barcos {
+    width: 100%;
+    background-color: transparent;
+   
+}
+
+
+section {
+    
+    display: grid;
+    /* Comprimento das imagens */
+    grid-template-columns: 31% 31% 31%;
+    /*Espaçamento colunas */
+    column-gap: 2.5%;
+    margin-left: 2%;
+    /* Altura das imagens */
+    grid-template-rows: 33% 33% 33%;
+    /* Espaçamento linhas */
+    row-gap: 5%;
+}
+
+[id^='barco'] {
+    border: none;
+    background-color: transparent;
+    margin-bottom: 1%;
+
+}
+
+/* --------------HOVER CARD ------------- */
+[id^='barco']:hover {
+    cursor: pointer;
+    border: 0.2px solid transparent;
+    border-radius: 10px;
+    scale: 1.1;
+    background-color: #a9eaf1;
+   
+
+
+}
+
+/* --------------------------- */
+
+.img_div {
+    height: 70%;
+}
+
+.img_barcos {
+    width: 100%;
+    min-width: 398px;
+    max-width: 400px;
+    height: 100%;
+    min-height: 269px;
+    max-height: 279px; 
+    border-radius: 10px;
+
+}
+.img_div img {
+    width: 100%;
+    min-width: 398px;
+    max-width: 400px;
+    height: 100%;
+    min-height: 269px;
+    max-height: 279px; 
+
+   
+
+}
+
+.info-text {
+    margin: 3px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: flex;
+    height: 30%;
+    flex-direction: column;
+    padding: 0%;
+
+
+}
+
+.span_LocalBarco {
+    padding-bottom: 3px;
+    font-size: 25px;
+    font-weight: 850;
+    font-family: 'airbnb';
+   
+}
+
+.span_ModeloBarco {
+    font-size: 18px;
+    font-family: 'modelo-airbnb';
+    font-weight: 500;
+    padding-bottom: 3px;
+  
+
+}
+
+.span_DiasBarco {
+    font-size: 18px;
+    font-family: 'modelo-airbnb';
+    padding-bottom: 4.5px;
+} 
+
+.preco_div {
+    display: flex;
+    align-items: center;
+    height: 10%;
+    margin-top: 4px;
+    
+
+}
+
+.span_PrecoBarco {
+    font-size: 18px;
+
+}
+
+#footer{
+    top: 1700px;
+}

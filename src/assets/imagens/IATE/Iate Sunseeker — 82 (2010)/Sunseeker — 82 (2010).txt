@@ -1,0 +1,7 @@
+Características
+Construtor: Sunseeker
+Modelo: 82
+Ano: 2010
+Comprimento: 24.38m
+Capacidade a bordo - Autorizada: 16
+Número de banheiros: 2

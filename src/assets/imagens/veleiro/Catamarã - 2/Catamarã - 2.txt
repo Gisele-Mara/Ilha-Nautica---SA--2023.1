@@ -1,0 +1,14 @@
+10 pessoas
+ · 3 cabines
+ · 6 camas
+ · 1 banheiro
+
+Características
+Construtor: Praia
+Modelo: Praia 34
+Ano: 2016
+Capacidade a bordo - Autorizada: 10
+Número de cabines: 3
+Número de camas: 6
+Número de banheiros: 1
+Comprimento: 10.36m

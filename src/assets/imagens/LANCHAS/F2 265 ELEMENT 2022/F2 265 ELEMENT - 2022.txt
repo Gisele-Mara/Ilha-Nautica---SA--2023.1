@@ -1,0 +1,9 @@
+Características
+Construtor: Fs
+Modelo: 265 Element
+Comprimento: 7.92m
+Ano: 2022
+Capacidade a bordo - Autorizada: 8
+Número de cabines: 1
+Número de camas: 2
+Número de banheiros: 1

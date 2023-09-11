@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/cadastro-skipper.css">
+    <script src="https://kit.fontawesome.com/36fe515f95.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4d527ab0dc.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div id="cabeca">
+            <a href="/home.html">
+                <div id="logo"><span id="spanLogo">ILHA NÁUTICA</span></div>
+            </a>
+            <div id="barra-pesquisa">
+                <input type="text" name="pesquisa" id="pesquisa" placeholder="Para onde você deseja ir?">
+            </div>
+
+            <div id="botao-perfil-div">
+                <button id="botao-perfil">
+                    <img id="menu_profile" src="/src/assets/icon/menu.png">
+                    <img id="marinheiro_profile" src="/src/assets/icon/captain.png">
+                </button>
+                <div id="menu">
+                    <div id="menu-dropdown">
+                        <li> <a href="#">Entrar | Cadastrar </a> </li>
+                        <li><a href="#"> Editar perfil </a> </li>
+                        <li><a href="#"> Histórico </a> </li>
+                        <li><a href="/src/HTML/cadastro-Skipper.html"> Anuncie seu barco </a> </li>
+                        <li> <a href="#"> Sair </a> </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav>
+            <div id="icons">
+
+
+                <a href="/src/HTML/Jet-ski/jetski.html"><button class="btn_icons"><img class="icons_filter"
+                            src="/src/assets/icon/jet-ski.png">Jet ski</button></a>
+                <a href="/src/HTML/Iate/iate.html"><button class="btn_icons"><img class="icons_filter"
+                            src="/src/assets/icon/iate (1).png">Iates</button></a>
+                <a href="/src/HTML/Lanchas/lancha.html"><button class="btn_icons"><img class="icons_filter"
+                            src="/src/assets/icon/lancha-rapida.png">Lanchas</button></a>
+                <a href="/src/HTML/Veleiro/veleiro.html"><button class="btn_icons"><img class="icons_filter"
+                            src="/src/assets/icon/iate.png">Veleiros</button></a>
+
+            </div>
+
+        </nav>
+    </header>
+
+    <div id="container-cadastros">
+
+        <section id="esquerdo">
+
+            <button class="btn-skipper" id="CliqueSkipper"> Cadastro Skipper </button>
+
+
+
+        </section>
+
+
+        <div id="meioSkipper">
+
+
+
+
+            <div id="container-direito" class="bg-img">
+                <h2 id="titulo">Cadastro Embarcação </h2>
+                <!-- Campo de entrada para inscrição -->
+
+                <form class="form-direito">
+                    <div class="categoria">
+
+                        <label class="label-input" for="">
+                            <i class="fa-solid fa-ship"></i>
+                            <input type="number" required class="noob"
+                                placeholder="Selecione qual a categoria da sua embarcação" class="skipper"
+                                id="inptCategoria" list="categoria">
+                        </label>
+
+                        <datalist id="categoria">
+                            <option value=""></option>
+                            <option value="Jet-Ski"></option>
+                            <option value="Veleiro"></option>
+                            <option value="Catamara"></option>
+                            <option value="lancha"> </option>
+                            <option value="Iate"> </option>
+                        </datalist>
+                    </div>
+
+
+                    <div class="fabricante">
+                        <div class="a">
+                            <label class="label-input" for="">
+                                <i class="fa-solid fa-user"></i>
+                                <input type="text" required="required" placeholder="Nome" class="skipper"
+                                    id="inptFabricante">
+                            </label>
+
+                        </div>
+
+
+
+
+                        <div class="anoFabricacao">
+                            <label class="label-input" for="">
+                                <i class="fa-solid fa-calendar-days"></i>
+                                <input type="text" required="required" placeholder="Ano Fabricação">
+                            </label>
+
+                        </div>
+
+                        <div class="tamanho">
+                            <label class="label-input" for="">
+                                <i class="fa-solid fa-ship"></i>
+                                <input type="text" required="required" placeholder="Tamanho (pés)" id="inpttamanho">
+                            </label>
+                        </div>
+
+                    </div>
+
+
+                    <div class="maxpessoas">
+                        <label class="label-input" for="">
+                            <i class="fa-solid fa-warehouse"></i>
+                            <input type="label-input" placeholder="Capacidadede passageiros" id="inptpassageiros">
+                        </label>
+                    </div>
+
+                    <div id="pernoite">
+                        <label class="label-input" for="">
+                            <i class="fa-solid fa-moon"></i>
+                            <input type="label-input" placeholder="Per Noite" id="inptpernoite" list="pernoite">
+                        </label>
+
+                        <datalist id="pernoite">
+                            <option value=""></option>
+                            <option value="Sim"></option>
+                            <option value="Não"></option>
+
+                        </datalist>
+                    </div>
+
+                    <div class="animais">
+                        <label class="label-input" for="">
+                            <i class="fa-solid fa-paw"></i>
+                            <input type="label-input" placeholder="Aceita Animais de estimação?" id="inptAnimais"
+                                list="animais">
+                        </label>
+
+                        <datalist id="animais">
+                            <option value=""></option>
+                            <option value="Sim"></option>
+                            <option value="Não"></option>
+
+                        </datalist>
+
+                    </div>
+
+                    <div id="email">
+                        <label class="label-input" for="">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="label-input" placeholder="Email" id="inptEmail">
+                        </label>
+
+                    </div>
+
+
+                    <div id="senha">
+                        <label class="label-input" for="">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="label-input" placeholder="Senha" id="inptSenha">
+                        </label>
+
+
+                    </div>
+
+                    <div id="banheiro">
+                        <label class="label-input" for="">
+                            <i class="fa-solid fa-restroom"></i>
+                            <input type="label-input" placeholder="Quantidade de Banheiros" id="inptBanheiros"
+                                list="banheiro">
+                        </label>
+
+                        <datalist id="banheiro">
+                            <option value=""></option>
+                            <option value="1"></option>
+                            <option value="2"></option>
+
+                        </datalist>
+
+                    </div>
+
+
+                    <div id="qntCabines">
+                        <label class="label-input" for="">
+                            <i class="fa-solid fa-person-booth"></i>
+                            <input type="label-input" placeholder="Quantidade de Cabines" id="inptCabines"
+                                list="cabines">
+                        </label>
+                        <datalist id="cabines">
+                            <option value=""></option>
+                            <option value="1"></option>
+                            <option value="2"></option>
+
+                        </datalist>
+                    </div>
+
+
+
+                    <div id="embarque">
+                        <label class="label-input" for="">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <input type="label-input" placeholder="Endereço de Embarque" id="inptEmbarque"
+                                list="estado">
+                        </label>
+                    </div>
+
+                    <div id="estado">
+                        <label class="label-input" for="">
+                            <i class="fa-solid fa-flag"></i>
+                            <input type="label-input" placeholder="Estado" required="required" id="inptEstado"
+                                list="estado">
+                        </label>
+
+                    </div>
+
+                    <div id="cidade">
+                        <label class="label-input" for="">
+                            <i class="fa-solid fa-flag"></i>
+                            <input type="label-input" placeholder="Cidade" required="required" id="inptCidade"
+                                list="cidade">
+                        </label>
+
+                    </div>
+
+                    <div id="botao-skipper_direito">
+                        <button class="btn btn-second" onclick="cadastrarBarco()"><span>Cadastrar</span></button>
+
+                    </div>
+
+
+                </form>
+            </div>
+
+
+            <div id="container-esquerdo" class="bg-img">
+                <h2 id="titulo">Cadastre-se como Skipper </h2>
+                <!-- Campo de entrada para inscrição -->
+                <form class="form-esquerdo">
+
+                    <label class="label-input" for="">
+                        <i class="fa-solid fa-ship"></i>
+                        <input type="number" placeholder="N°- Inscrição" class="skipper" id="inptNumeroInscricao">
+                    </label>
+
+
+
+                    <!-- Campo de entrada para o nome da embarcação -->
+
+
+                    <label class="label-input" for="">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Nome Completo" class="skipper" id="inptNome">
+
+                    </label>
+
+                    <!-- Campo de entrada para o telefone -->
+
+                    <label class="label-input" for="">
+                        <i class="fa-sharp fa-solid fa-phone"></i>
+                        <input type="text" placeholder="Telefone" required="required" class="skipper" id="inptTel">
+
+                    </label>
+
+                    <!-- Campo de entrada para a categoria -->
+                    <label class="label-input" for="">
+                        <i class="fa-solid fa-tag"></i>
+                        <input type="text" placeholder="Categoria" id="inptopicao" list="faixa">
+
+                        <datalist id="faixa">
+                            <option value=""></option>
+                            <option value="Mestre Amador"></option>
+                            <option value="Capitão"></option>
+                            <option value="Comandante"> </option>
+                        </datalist>
+                    </label>
+
+                    <!-- Campo de entrada para email -->
+                    <label class="label-input" for="">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="Email" id="inptemail">
+                    </label>
+
+                    <!-- Campo de entrada para a senha -->
+                    <label class="label-input" for="">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Senha" id="inptSenha">
+                    </label>
+
+                    <!-- Campo de entrada para confirmar senha -->
+                    <label class="label-input" for="">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Confirmar senha" class="skipper" id="inptSenhaConfirma">
+                    </label>
+                    <!-- Campo de entrada para sexo -->
+
+                    <div id="inptSexo">
+
+                        <label class="inptSexo" for="Masculino">Masculino <i class="fa-solid fa-person"></i>
+                            <input type="radio" name="sexo" value="M">
+                        </label>
+
+                        <label class="inptSexo" for="Feminino">Feminino <i class="fa-solid fa-person-dress"></i>
+                            <input type="radio" name="sexo" value="F">
+                        </label>
+
+                    </div>
+
+
+                        <!-- Campo de entrada para data -->
+                        <label class="inptData" for=""> Data de nascimento
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <input type="date" id="inptdata" class="inptData">
+                        </label>
+
+
+
+
+
+                    <div id="botao-skipper_esquerdo">
+                        <button class="btn btn-second" onclick="cadastrarSkipper()"><span>Cadastrar</span></button>
+
+                    </div>
+                </form>
+            </div>
+
+
+
+        </div>
+
+
+
+        <section id="direito">
+
+            <button class="btn-skipper" id="CliqueEmbarcacao"> Cadastro Embarcação </button>
+
+
+
+        </section>
+
+
+    </div>
+
+
+
+    <!-- ============= FOOTER ============== -->
+    <footer id="footer">
+
+        <div class="container-footer">
+
+            <div class="social-links">
+
+                <a href="#" class="facebook"><i class="fa-brands fa-facebook fa-beat-fade"></i></i></a>
+                <a href="#" class="twitter"><i class="fa-brands fa-twitter fa-beat-fade"></i></a>
+                <a href="#" class="instagram"><i class="fa-brands fa-instagram fa-beat-fade"></i></a>
+                <a href="#" class="google-plus"><i class="fa-brands fa-google fa-beat-fade"></i></a>
+                <a href="#" class="linkedin"><i class="fa-brands fa-linkedin fa-beat-fade"></i></a>
+            </div>
+
+            <div class="copyright">
+
+                <span>Desenvolvido pela Equipe Ilha Náutica. SA 2023. Curso Técnico de Desenvolvimento de
+                    Sistemas.</span>
+            </div>
+        </div>
+
+    </footer>
+    <!-- ======= FIM FOOTER ======= -->
+
+
+
+
+
+    <!-- ========= CONTAINER POPUPS ========= -->
+
+    <div id="containerPopup">
+        <div class="fundoPopup">
+            <!-- Popup do login e cadastro -->
+            <div class="container-login">
+                <!-- Primeiro conteúdo - Login -->
+                <div class="content first-content">
+                    <div class="first-column">
+                        <h2 class="title title-primary">Bem-vindo!</h2> <br>
+                        <button id="signin" class="btn btn-primary">Faça o Login</button>
+                    </div>
+                    <div class="second-column">
+                        <h2 class="title title-second">Criar nova conta</h2>
+                        <div class="social-media">
+                            <ul class="list-social-media">
+                                <!-- Ícones das redes sociais -->
+                                <a class="link-social-media" href="#">
+                                    <li class="item-social-media">
+                                        <i class="fa-brands fa-facebook fa-bounce" style="color: #015cf9;"></i>
+                                    </li>
+                                </a>
+                                <a class="link-social-media" href="#">
+                                    <li class="item-social-media">
+                                        <i class="fa-brands fa-google fa-bounce" style="color: #015cf9;"></i>
+                                    </li>
+                                </a>
+                                <a class="link-social-media" href="#">
+                                    <li class="item-social-media">
+                                        <i class="fa-brands fa-linkedin fa-bounce" style="color: #035efc;"></i>
+                                    </li>
+                                </a>
+                            </ul>
+                        </div><!-- social media -->
+                        <div id="resultadoTentativa">
+
+                        </div>
+                        <form class="form">
+                            <!-- Campo de entrada para o nome -->
+                            <label class="label-input" for="Nome">
+                                <i class="far fa-user icon-modify"></i>
+                                <input type="text" placeholder="Nome" id="signup-username">
+                            </label>
+
+                            <!-- Campo de entrada para o email -->
+                            <label class="label-input" for="Email">
+                                <i class="far fa-envelope icon-modify"></i>
+                                <input type="email" placeholder="Email" id="signup-email">
+                            </label>
+
+                            <!-- Campo de entrada para a senha -->
+                            <label class="label-input" for="Senha">
+                                <i class="fas fa-lock icon-modify"></i>
+                                <input type="password" placeholder="Senha" id="signup-password">
+                                <span id="alternar-password-btn" onclick="alternarPasswordVisibilidade()">
+                                    <i class="fa fa-eye-slash" style="color: #9e8a8a;" id="password-icon"></i>
+                                </span>
+                            </label>
+
+                            <label class="label-input" for="confirmar_senha">
+                                <i class="fas fa-lock icon-modify"></i>
+                                <input type="password" placeholder="Confirmar a senha" id="signup-confirmarPassword">
+                                <span id="alternar-confirmarPassword-btn"
+                                    onclick="alternarconfirmarPasswordVisibilidade()">
+                                    <i class="fa fa-eye-slash" style="color: #9e8a8a;" id="confirmarPassword-icon"></i>
+                                </span>
+                            </label>
+
+                            <div id="div_avisoErro">
+
+                            </div>
+
+                            <!-- Botão de registro -->
+                            <button onclick="registrar()" type="submit" class="btn btn-second">Cadastrar</button>
+                        </form>
+                    </div><!-- second column -->
+                </div><!-- first content -->
+
+                <!-- Segundo conteúdo - Registro -->
+                <div class="content second-content">
+                    <div class="first-column">
+                        <h2 class="title title-primary">Olá!</h2><br>
+                        <p class="description description-primary">Entre com os seus dados pessoais</p>
+                        <button id="signup" class="btn btn-primary">Cadastre-se</button>
+                    </div>
+                    <div class="second-column">
+                        <h2 class="title title-second">Bem-vindo!</h2>
+                        <div class="social-media">
+                            <ul class="list-social-media">
+                                <!-- Ícones das redes sociais -->
+                                <a class="link-social-media" href="#">
+                                    <li class="item-social-media">
+                                        <i class="fa-brands fa-facebook fa-bounce" style="color: #015cf9;"></i>
+                                    </li>
+                                </a>
+                                <a class="link-social-media" href="#">
+                                    <li class="item-social-media">
+                                        <i class="fa-brands fa-google fa-bounce" style="color: #015cf9;"></i>
+                                    </li>
+                                </a>
+                                <a class="link-social-media" href="#">
+                                    <li class="item-social-media">
+                                        <i class="fa-brands fa-linkedin fa-bounce" style="color: #035efc;"></i>
+                                    </li>
+                                </a>
+                            </ul>
+                        </div><!-- social media -->
+                        <p class="description description-second">Use o seu username para acessar</p>
+                        <form class="form">
+                            <!-- Campo de entrada para o username -->
+                            <label class="label-input" for="">
+                                <i class="far fa-user icon-modify"></i>
+                                <input type="text" placeholder="Username" id="login-username">
+                            </label>
+
+                            <!-- Campo de entrada para a senha -->
+                            <label class="label-input" for="">
+                                <i class="fas fa-lock icon-modify"></i>
+                                <input type="password" placeholder="Password" id="login-password">
+                                <span id="alternar-password-btn-signin" onclick="alternarPasswordVisibilidadeSignIn()">
+                                    <i class="fa fa-eye-slash" style="color: #9e8a8a;" id="password-icon-signin"></i>
+                                </span>
+                            </label>
+
+
+                              <div id="div_avisoErroLogin">
+                                
+                                </div>
+                            <!-- Botão de login -->
+                            <button onclick="logar()" type="submit" class="btn btn-second">Entrar</button>
+
+                        </form>
+                    </div><!-- second column -->
+                </div><!-- second-content -->
+            </div>
+
+        </div>
+
+    </div>
+    <div id="containerPopupEditar">
+        <div class="fundoPopupEditar">
+            <div id="container-editar">
+                <!-- Primeiro conteúdo - Login -->
+                <div class="contents first-contents">
+                    <div class="first-column">
+                        <h2 class="title title-primary">Bem-vindo,</h2> <br>
+
+                        <div class="title title-primary" id="username-atual">
+
+                        </div>
+                        
+                        <div id="excluir-usuario">
+                            <span>Deseja excluir sua conta?</span>
+                            <button id="botao-excluir" onclick="deletarUsuario()"> Excluir</button>
+                        </div>
+
+                    </div>
+                    <div class="second-column" id="coluna-editar">
+                        <h2 class="title title-second">Edite os seus dados!</h2>
+
+
+                        <form class="form">
+                            <!-- Campo de entrada para o nome -->
+                            <label class="label-input" for="">
+                                <i class="far fa-user icon-modify"></i>
+                                <input type="text" placeholder="New Name" id="edit-username">
+                            </label>
+
+                            <!-- Campo de entrada para o email -->
+                            <label class="label-input" for="">
+                                <i class="far fa-envelope icon-modify"></i>
+                                <input type="email" placeholder="New Email" id="edit-email">
+                            </label>
+
+                            <!-- Campo de entrada para a senha -->
+                            <label class="label-input" for="">
+                                <i class="fas fa-lock icon-modify"></i>
+                                <input type="password" placeholder="Nova senha" id="edit-password">
+                                <span id="alternar-password-btn" onclick="alternarPasswordVisibilidade()">
+                                    <i class="fa fa-eye-slash" style="color: #9e8a8a;" id="password-icon"></i>
+                                </span>
+                            </label>
+
+                            <label class="label-input" for="">
+                                <i class="fas fa-lock icon-modify"></i>
+                                <input type="password" placeholder="Confirmar nova senha" id="edit-confirmarPassword">
+                                <span id="alternar-confirmararPassword-btn"
+                                    onclick="alternarconfirmarPasswordVisibilidade()">
+                                    <i class="fa fa-eye-slash" style="color: #9e8a8a;" id="confirmarPassword-icon"></i>
+                                </span>
+                            </label>
+
+                            <div id="div_avisoErroEditar">
+
+                            </div>
+
+                            <!-- Botão de registro -->
+                            <button onclick="editar()" type="submit" class="btn btn-second">Editar</button>
+                        </form>
+                    </div><!-- second column -->
+                </div><!-- first content -->
+
+
+            </div>
+        </div>
+    </div>
+    <!-- ================ FIM POPUPS =========== -->
+
+
+
+
+
+
+    <script src="/src/js/script.js"></script>
+    <script src="/src/js/scriptskiper.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+Tipo:3 passageiros 
+Estado:Novo 
+Ano de Fabricação:2021 
+Local:Mauá | SP 
+Combustível:Gasolina e Diesel
