@@ -21,7 +21,7 @@ for (let i = 0; i < destino.length; i++) {
   let opcoesDestino = document.createElement("option");
   opcoesDestino.setAttribute("value", destino[i]);
   opcoesDestino.style.color = "red"
-  console.log(opcoesDestino.style)
+  // console.log(opcoesDestino.style)
   dataListDestino.appendChild(opcoesDestino);
 }
 // Associando o datalist ao input de pesquisa
