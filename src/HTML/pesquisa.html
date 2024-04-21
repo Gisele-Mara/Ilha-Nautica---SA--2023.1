@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>Document</title>
     <link rel="stylesheet" href="/style/pagina-barcos.css">
     <style>
@@ -32,6 +33,105 @@
             /* Espaçamento linhas */
             row-gap: 20px;
         }
+        /* @media screen and (max-width: 770px) {
+    * {
+        box-sizing: border-box;
+    }
+     /* body {
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+
+    } */
+    main {
+        top: 170px;
+        width: 100%;
+        height: max-content; 
+        position: absolute;
+        padding-left:0;
+        margin-top: 2%;
+        /* margin-right: 30px;  */
+        /* background-color: rgb(255, 255, 255); */
+        /* background-color: transparent; */
+    
+    
+    } 
+
+    section {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 31dvw 31dvw 31dvw;
+        /*Espaçamento colunas */
+        column-gap: 1.5dvw;
+        padding-left: 1.5dvw;
+        margin-left: 0%;
+        /* Altura das imagens */
+        grid-template-rows: 68vh;
+        /* Espaçamento linhas */
+        row-gap:8vh;
+    }
+
+    [id^='barco'] {
+        height: auto;
+        min-height: 68vh;
+        max-height: 68vh;
+        width: 100%;
+        border: none;
+        background-color: transparent;
+        margin-bottom: 0vh;
+        /* height: 68vh; */
+        padding-bottom: 2vh;
+    
+    }
+    /* #barco-jet-ski-1{
+        height: 68vh;
+    } */
+    .info-text {
+        margin: 3px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        padding: 0%;
+    
+    
+    }
+  
+    .img_div {
+        height: 70%;
+        max-width:100%;height:auto;
+    }
+    
+    .img_barcos {
+       
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        height: auto;
+
+    
+    }
+    .img_div img {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        height: auto;     
+        
+    
+    }
+    #footer{
+        top: calc((66.7vh * 6) + 10vh); 
+      /* margin-top: auto; */
+    }
+    
+    
+  
+
+
+ 
     </style>
 
 </head>

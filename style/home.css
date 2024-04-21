@@ -276,6 +276,9 @@ nav a {
   width: 40px;
 }
 
+
+
+
 .icons_filter:hover {
   cursor: pointer;
   animation: updown 10s ease infinite;
@@ -710,8 +713,12 @@ a:visited {
   text-align: justify;
   text-align: center;
   font-family: "modelo-airbnb";
-  font-size: 37px;
+  
   height: 100%;
+}
+
+.texto_vsf{
+  font-size: 37px;
 }
 
 #botao-excluir {
@@ -756,7 +763,26 @@ a:visited {
     flex-direction: column;
     height: 100%;
   }
+  header {
+    left: 0;
+    top: 0;
+  
+    background-color: white;
+  
+    width: 100%;
+    position: fixed;
+    height: 22vh;
+    /* Sobrepor todos os conteudos */
+    z-index: 10;
+  
+    /* Divindo em duas partes (cabeca e nav) */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50% 50%;
+   
+  }
   #cabeca {
+    height: 50%;
     grid-template-columns: 28vw 1fr 25vw;
     column-gap: 1vw;
   }
@@ -785,6 +811,14 @@ a:visited {
     padding-left: 0%;
   }
 
+  nav{
+    padding-top: 1dvh;
+  }
+  #container-home {
+    margin-top: 25dvh;
+    padding-top: 2dvh;
+  }
+
   #footer {
     margin-top: auto;
   }
@@ -810,6 +844,66 @@ a:visited {
   #pesquisa:focus {
     width: auto;
   }
+  /* .carrossel {
+ 
+    width: 100vw;
+    height: 60vh;
+  } */
+
+  .slide img {
+    width: 100%;
+    height:45dvh;
+    border-radius: 20px;
+  }
+
+  
+#textoo {
+  width: 100%;
+  height: 24vh;
+  margin-bottom: 5vh;
+  margin-top: 0;
+
+}
+.texto_vsf {
+  width: 80%;
+  height: 100%;
+  padding-left: 0%;
+  padding-right: 0%;
+
+  padding-top: 3vh;
+  margin-top: 0%;
+  /* text-align: justify; */
+  text-align: center;
+  font-family: "modelo-airbnb";
+  font-weight: 200;
+  font-size: 1.3em;
+
+  padding-bottom: 0vh;
+}
+
+
+
+
+
+
+#container-vsf {
+  width: 95dvw;
+  display: grid;
+  /* Comprimento das imagens */
+  grid-template-columns: 23dvw 23dvw 23dvw 23dvw;
+  column-gap: 1dvw;
+  height: 100%;
+  height: 30dvh;
+  margin-top: 4vh;
+
+}
+
+#container-vsf img {
+  width: 100%;
+  height: 21dvh;
+  border-radius: 10px;
+}
+  
 
   #footer {
     display: flex;
