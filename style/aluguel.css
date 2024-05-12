@@ -157,11 +157,11 @@ input[type="radio"] {
     flex-direction: column;
     border-radius: 12px;
     padding: 18px;
-    top: 18%;
-     right: 35%;
-     left: 65%;
-     width:30%;
-     height: 55%;
+    top: 20vh;
+    right: 35%;
+    left: 65%;
+    width:30vw;
+    height: 60vh;
      background-color: rgb(255, 255, 255);
      box-shadow: 0 0 10px 2px rgb(180, 180, 180);
      font-family: 'modelo-airbnb';
