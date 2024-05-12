@@ -1,0 +1,354 @@
+@import url('/style/home.css');
+@import url('/style/Cadastros.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: white;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+main {
+    top: 170px;
+    width: 98%;
+    height: 1600px; 
+    position: absolute;
+    padding-left:0;
+    margin-top: 2%;
+    /* margin-right: 30px;  */
+    /* background-color: rgb(255, 255, 255); */
+    background-color: transparent;
+
+
+}
+.container-barcos {
+    width: 100%;
+    background-color: transparent;
+   
+}
+
+
+section {
+    
+    display: grid;
+    /* Comprimento das imagens */
+    grid-template-columns: 31vw 31vw 31vw;
+    /*Espaçamento colunas */
+    column-gap: 2.5vw;
+    padding-left: 0.6vw;
+    /* Altura das imagens */
+    grid-template-rows: 33% 33% 33%;
+    /* Espaçamento linhas */
+    row-gap: 5%;
+}
+
+[id^='barco'] {
+    border: none;
+    background-color: transparent;
+    margin-bottom: 1%;
+
+}
+
+/* --------------HOVER CARD ------------- */
+[id^='barco']:hover {
+    cursor: pointer;
+    border: 0.2px solid transparent;
+    border-radius: 10px;
+    scale: 1.1;
+    background-color: #a9eaf1;
+   
+
+
+}
+
+/* --------------------------- */
+
+.img_div {
+    height: 70%;
+}
+
+.img_barcos {
+    width: 100%;
+    min-width: 40vw;
+    max-width: 40vw;
+    height: 100%;
+    min-height: 269px;
+    max-height: 279px; 
+    border-radius: 10px;
+
+}
+.img_div img {
+    width: 100%;
+    min-width: 31vw;
+    max-width: 31vw;
+    height: 100%;
+    min-height: 269px;
+    max-height: 279px; 
+
+   
+
+}
+
+.info-text {
+    margin: 3px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: flex;
+    height: 30%;
+    flex-direction: column;
+    padding: 0%;
+
+
+}
+
+.span_LocalBarco {
+    padding-bottom: 3px;
+    font-size: 25px;
+    font-weight: 850;
+    font-family: 'airbnb';
+   
+}
+
+.span_ModeloBarco {
+    font-size: 18px;
+    font-family: 'modelo-airbnb';
+    font-weight: 500;
+    padding-bottom: 4px;
+  
+
+}
+
+.span_DiasBarco {
+    font-size: 18px;
+    font-family: 'modelo-airbnb';
+    padding-bottom: 4.5px;
+} 
+
+.preco_div {
+    display: flex;
+    align-items: center;
+    height: 10%;
+    margin-top:3px;
+    
+
+}
+
+.span_PrecoBarco {
+    font-size: 18px;
+
+}
+
+#footer{
+    top: 1700px;
+}
+@media screen and (max-width: 770px) {
+    * {
+        box-sizing: border-box;
+    }
+     /* body {
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+
+    } */
+    main {
+        top: 170px;
+        width: 100%;
+        height: max-content; 
+        position: absolute;
+        padding-left:0;
+        margin-top: 2%;
+        /* margin-right: 30px;  */
+        /* background-color: rgb(255, 255, 255); */
+        /* background-color: transparent; */
+    
+    
+    } 
+
+    section {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 45.5vw 45.5vw ;
+        /*Espaçamento colunas */
+        column-gap: 4vw;
+        padding-left: 2vw;
+        margin-left: 0%;
+        /* Altura das imagens */
+        grid-template-rows: 68vh;
+        /* Espaçamento linhas */
+        row-gap:8vh;
+    }
+
+    [id^='barco'] {
+        height: auto;
+        min-height: 68vh;
+        max-height: 68vh;
+        width: 100%;
+        border: none;
+        background-color: transparent;
+        margin-bottom: 0vh;
+        /* height: 68vh; */
+        padding-bottom: 2vh;
+    
+    }
+    /* #barco-jet-ski-1{
+        height: 68vh;
+    } */
+    .info-text {
+        margin: 3px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        padding: 0%;
+    
+    
+    }
+  
+    .img_div {
+        height: 70%;
+        max-width:100%;height:auto;
+    }
+    
+    .img_barcos {
+       
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        height: auto;
+
+    
+    }
+    .img_div img {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        height: auto;     
+        
+    
+    }
+    #footer{
+        top: calc((66.7vh * 6) + 10vh); 
+      /* margin-top: auto; */
+    }
+    
+    
+  }
+
+@media screen and (max-width: 480px) {
+    * {
+        box-sizing: border-box;
+    }
+     /* body {
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+
+    } */
+    main {
+        top: 170px;
+        width: 100%;
+        height: calc(60vh * 9); 
+        position: absolute;
+        padding-left:0;
+        margin-top: 2%;
+        /* margin-right: 30px;  */
+        /* background-color: rgb(255, 255, 255); */
+        /* background-color: transparent; */
+    
+    
+    } 
+
+    section {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 91vw;
+        /*Espaçamento colunas */
+        column-gap: 0;
+        padding-left: 4vw;
+        /* Altura das imagens */
+        grid-template-rows: 60vh;
+        /* Espaçamento linhas */
+        row-gap:6vh;
+      
+    }
+
+    [id^='barco'] {
+        /* height: auto; */
+        min-height: 45vh;
+        max-height: 90svh;
+        width: 100%;
+        border: none;
+        background-color: transparent;
+        margin-bottom: 0vh;
+        height: 58vh;
+        padding-bottom: 2em;
+    
+    }
+    /* #barco-jet-ski-1{
+        height: 68vh;
+    } */
+    .info-text {
+        margin: 3px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        padding: 0%;
+    
+    
+    }
+  
+    .img_div {
+        height: 70%;
+        max-width:100%;height:auto;
+    }
+    
+    .img_barcos {
+       
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        height: auto;
+
+    
+    }
+    .img_div img {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        height: auto;     
+        
+    
+    }
+    #footer{
+        top: calc((66.7vh * 9) + 10vh); 
+      /* margin-top: auto; */
+    }
+    
+  }

@@ -1,0 +1,9 @@
+Características
+Construtor: Phantom
+Modelo: 62
+Ano: 2015
+Comprimento: 18.8m
+Capacidade a bordo - Autorizada: 18
+Número de cabines: 3
+Número de camas: 6
+Número de banheiros: 3

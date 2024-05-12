@@ -1,0 +1,9 @@
+Características
+Construtor: Fs
+Modelo: 230
+Comprimento: 7m
+Ano: 2018
+Capacidade a bordo - Autorizada: 9
+Número de cabines: 1
+Número de camas: 2
+Número de banheiros: 1
