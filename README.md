@@ -24,16 +24,16 @@ O Ilha Náutica é uma plataforma web voltada para o aluguel de barcos, proporci
 
 ## Observações
 
-- Site projetado para tela de 1366 x 641. Não responsivo.
+- Site projetado para tela de 1366 x 641. 
 
 
 ## Equipe
 
-- Alexsandro Silva
-- Andrey Lopes
-- Enzo Lira
-- Erick Ribeiro
-- Gisele Mara 
+- Alexsandro Silva @alexsandro1986-hub
+- Andrey Lopes @andreyflopes
+- Enzo Lira @ENZO-LM
+- Erick Ribeiro @ErickRibeiro2023
+- Gisele Mara @Gisele-Mara
 
 ## Imagens
 
