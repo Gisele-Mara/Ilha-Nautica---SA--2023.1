@@ -24,27 +24,18 @@ O Ilha Náutica é uma plataforma web voltada para o aluguel de barcos, proporci
 
 ## Observações
 
-- Site projetado para tela de 1366 x 641. 
+- Site projetado para tela de 1366 x 641. Não responsivo.
 
 
 ## Equipe
 
-- Alexsandro Silva @alexsandro1986-hub
-- Andrey Lopes @andreyflopes
-- Enzo Lira @ENZO-LM
-- Erick Ribeiro @ErickRibeiro2023
-- Gisele Mara @Gisele-Mara
+- Alexsandro Silva
+- Andrey Lopes
+- Enzo Lira
+- Erick Ribeiro
+- Gisele Mara 
 
 ## Imagens
-
-<!-- <div style="height: 400px; overflow: scroll;">
-  <img src="src/assets/imagens/front/Ilha-Náutica- pagina-inicial.png" alt="Página Inicial - Home">
-  <img src="src/assets/imagens/front/Ilha-Náutica-aluguel-veleiros.png" alt="Página de aluguel de veleiros">
-  <img src="src/assets/imagens/front/Ilha-Náutica-cadastro.png" alt="Cadastro do usuário">
-  <img src="src/assets/imagens/front/Ilha-Náutica-Techenema-65.png" alt="Página para alugar velereiro">
-  <img src="src/assets/imagens/front/Ilha-Náutica-cadastro-barco.png" alt="Página de cadastro de embarcação">
-
-</div> -->
 
 <details>
   <summary>Ilha Náutica - Front</summary>
