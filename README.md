@@ -11,6 +11,10 @@ O Ilha Náutica é uma plataforma web voltada para o aluguel de barcos, proporci
 
 ## Funcionalidades
 
+- **Cadastro de Usuário:** Os usuários podem se cadastrar na plataforma, fornecendo informações como nome, e-mail e senha para criar uma conta.
+  
+- **Edição e Exclusão de Conta:** Os usuários podem editar suas informações cadastradas, bem como excluir suas contas.
+  
 - **Cadastro de Barcos:** Os proprietários de embarcações podem cadastrar seus barcos na plataforma, fornecendo informações detalhadas sobre a embarcação, como capacidade, modelo e ano de criação.
 
 - **Aluguel de Barcos:** Os usuários interessados em alugar uma embarcação podem pesquisar e visualizar os barcos disponíveis para aluguel, selecionando aquele que melhor atenda às suas necessidades e requisitos.
